@@ -89,3 +89,11 @@ That extra inline space shows up as a thin white gap between stacked images. */
 .herocard-container:hover .herocard-intro-overlay {
   transform: translateY(0);
 }
+
+@media (min-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: none;
+  }
+}
